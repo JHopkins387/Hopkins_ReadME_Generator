@@ -6,12 +6,12 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What is the title of your project? (Required)',
+        message: 'Enter the title of your project? (Required Input)',
         validate: titleInput => {
             if (titleInput) {
                 return true;
             } else {
-                console.log('Please enter your project title!');
+                console.log('Please enter the title of your project!');
                 return false;
             }
         }
@@ -19,12 +19,12 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Enter a description of your project. (Required)',
+        message: 'Please enter description of what your project is. (Required Input)',
         validate: descriptionInput => {
             if (descriptionInput) {
                 return true;
             } else {
-                console.log('Please enter a description!');
+                console.log('Please enter a description of your project!');
                 return false;
             }
         }
@@ -32,7 +32,7 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'Enter installation guidelines for your project (Required)',
+        message: 'Tell me the installation guidelines needed for your project (Required Input)',
         validate: installationInput => {
             if (installationInput) {
                 return true;
@@ -45,12 +45,12 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Provide a description of how to use your project. (Required)',
+        message: 'Now provide a description of how to use your project. (Required Input)',
         validate: nameInput => {
             if (nameInput) {
                 return true;
             } else {
-                console.log('Please enter usage info');
+                console.log('Please enter usage info here');
                 return false;
             }
         }
@@ -58,7 +58,7 @@ const questions = [
     {
         type: 'input',
         name: 'contribution',
-        message: 'Enter contribution guidelines for your project. (Required)',
+        message: 'Please enter the contribution guidelines for your project. (Required Input)',
         validate: contributionInput => {
             if (contributionInput) {
                 return true;
@@ -71,12 +71,12 @@ const questions = [
     {
         type: 'input',
         name: 'test',
-        message: 'Provide test instructions for your project. (Required)',
+        message: 'Provide some test instructions for your project. (Required Input)',
         validate: testInput => {
             if (testInput) {
                 return true;
             } else {
-                console.log('Please enter your test instructions!');
+                console.log('Please enter some test instructions!');
                 return false;
             }
         }
@@ -84,12 +84,12 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'What is your github URL? (Required)',
+        message: 'Please enter your github URL? (Required Input)',
         validate: githubInput => {
             if (githubInput) {
                 return true;
             } else {
-                console.log('Please enter your github URL');
+                console.log('Please enter your github URL/ maye your you put in the URL correctly');
                 return false;
             }
         }
@@ -97,7 +97,7 @@ const questions = [
     {
         type: 'input',
         name: 'email',
-        message: 'What is your email where users can contact you? (Required)',
+        message: 'What is a email where users can contact you? (Required Input)',
         validate: emailInput => {
             if (emailInput) {
                 return true;
@@ -110,7 +110,7 @@ const questions = [
     {
         type: 'list',
         name: 'license',
-        message: 'Choose a license for your appilcation',
+        message: 'Now choose a license for your appilcation that will be used',
         choices: ['MIT', 'BSD 3-Clause', 'Apache', 'GNU GPL v3', 'none']
     },
 ];

@@ -1,14 +1,25 @@
 {
-  "name": "static-site",
-  "version": "1.0.0",
-  "description": "",
+  "name": "create-readme",
+  "version": "1.0",
+  "description": "Create README file through the use of the command line",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhopkins384/Hopkins_ReadME_Generator.git"
+  },
+  "keywords": [
+    "readme",
+    "generator"
+  ],
+  "author": "Jarrett Hopkins",
+  "bugs": {
+    "url": "https://github.com/jhopkins384/Hopkins_ReadME_Generator/issues"
+  },
+  "homepage": "https://github.com/jhopkins384/Hopkins_ReadME_Generator#readme",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "inquirer": "^8.2.2"
   }
 }
