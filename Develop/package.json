@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jhopkins384/Hopkins_ReadME_Generator.git"
+    "url": "git+https://github.com/JHopkins387/Hopkins_ReadME_Generator.git"
   },
   "keywords": [
     "readme",
@@ -16,9 +16,9 @@
   ],
   "author": "Jarrett Hopkins",
   "bugs": {
-    "url": "https://github.com/jhopkins384/Hopkins_ReadME_Generator/issues"
+    "url": "https://github.com/JHopkins387/Hopkins_ReadME_Generator/issues"
   },
-  "homepage": "https://github.com/jhopkins384/Hopkins_ReadME_Generator#readme",
+  "homepage": "https://github.com/JHopkins387/Hopkins_ReadME_Generator#readme",
   "dependencies": {
     "inquirer": "^8.2.2"
   }
