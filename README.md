@@ -9,3 +9,8 @@
 
   ## How to Use: 
   Type “node index.js” in the command line to start the program. Afterwards, answer the questions asked so that the program knows what to create. After you’re done answering the questions, a README file will be created under newREADME.md! YOu are then free to copy and paste or manually drag the gile into your Git Hub. 
+
+
+## Test video:
+ Link to the test video I did:
+ https://drive.google.com/drive/u/0/folders/1zygag2ZFl-kHtr5VdaBPaG5bt17KuStT
